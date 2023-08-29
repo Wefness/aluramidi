@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+
 :root {
   --cinza: #aaa;
   --vermelha: #e93d50;
   --vermelha-escura: #af303f;
   --branca: #fff;
   --luz: rgb(229, 255, 0);
+
+  --fonte-primaria: 'Montserrat', sans-serif;
 }
 
 body {
@@ -12,7 +16,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  font-family: 'Montserrat', sans-serif;
+  font-family: var(--fonte-primaria);
   min-height: 100vh;
 }
 
@@ -20,6 +24,23 @@ h1 {
   color: var(--branca);
   margin-bottom: 20px;
   font-size: 2rem;
+}
+
+.cabecalho {
+  padding: 2% 0 0 15%;
+}
+
+.cabecalho__menu {
+  display: flex;
+  gap: 80px;
+}
+
+.cabecalho__menu__link {
+  font-family: var(--fonte-primaria);
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--branca);
+  text-decoration: none;
 }
 
 .teclado {
