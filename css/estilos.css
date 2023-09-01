@@ -26,23 +26,6 @@ h1 {
   font-size: 2rem;
 }
 
-.cabecalho {
-  padding: 2% 0 0 15%;
-}
-
-.cabecalho__menu {
-  display: flex;
-  gap: 80px;
-}
-
-.cabecalho__menu__link {
-  font-family: var(--fonte-primaria);
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: var(--branca);
-  text-decoration: none;
-}
-
 .teclado {
   background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%);
   box-shadow: 6px 8px 0 6px #666, 10px 10px 10px #000;
